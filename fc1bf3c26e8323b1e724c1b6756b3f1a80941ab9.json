@@ -11,7 +11,7 @@
   "enable_match_between_runs": true,
   "precursor_mass_tolerance": "[-20.0 ppm, 20.0 ppm]",
   "fragment_mass_tolerance": "[-20.0 ppm, 20.0 ppm]",
-  "enzyme": "KR",
+  "enzyme": "Trypsin/P",
   "allowed_miscleavages": 2,
   "min_peptide_length": 7,
   "max_peptide_length": 30,
@@ -49,13 +49,9 @@
       "CV_q75": 0.12205825387302956,
       "CV_q90": 0.21211391851032174,
       "CV_q95": 0.30742138122485363,
-      "roc_auc": 0.9137734982139807,
-      "roc_auc_directional": 0.9303839092815094,
-      "nr_prec": 30072,
-      "nr_prec_HUMAN": 22337,
-      "nr_prec_YEAST": 6058,
-      "nr_prec_ECOLI": 1677,
-      "variance_epsilon_global": 0.4278090501083078
+      "variance_epsilon_global": 0.4278090501083078,
+      "nr_feature": 30072,
+      "roc_auc": 0.9137734982139807
     },
     "5": {
       "median_abs_epsilon_global": 0.16599361208390917,
@@ -88,13 +84,9 @@
       "CV_q75": 0.12289527767771488,
       "CV_q90": 0.21498982551283766,
       "CV_q95": 0.3150435764064242,
-      "roc_auc": 0.9116175963183808,
-      "roc_auc_directional": 0.9274559452395776,
-      "nr_prec": 30213,
-      "nr_prec_HUMAN": 22424,
-      "nr_prec_YEAST": 6083,
-      "nr_prec_ECOLI": 1706,
-      "variance_epsilon_global": 0.46778183137940377
+      "variance_epsilon_global": 0.46778183137940377,
+      "nr_feature": 30213,
+      "roc_auc": 0.9116175963183808
     },
     "4": {
       "median_abs_epsilon_global": 0.16641388641783195,
@@ -127,13 +119,9 @@
       "CV_q75": 0.12316235218292904,
       "CV_q90": 0.21607737772092578,
       "CV_q95": 0.31778299819622624,
-      "roc_auc": 0.9106053802629277,
-      "roc_auc_directional": 0.9268026873240802,
-      "nr_prec": 30273,
-      "nr_prec_HUMAN": 22462,
-      "nr_prec_YEAST": 6098,
-      "nr_prec_ECOLI": 1713,
-      "variance_epsilon_global": 0.494256538357807
+      "variance_epsilon_global": 0.494256538357807,
+      "nr_feature": 30273,
+      "roc_auc": 0.9106053802629277
     },
     "3": {
       "median_abs_epsilon_global": 0.1666054047540655,
@@ -166,13 +154,9 @@
       "CV_q75": 0.1233745145827862,
       "CV_q90": 0.21681559476596662,
       "CV_q95": 0.3198224965862048,
-      "roc_auc": 0.9101210201977906,
-      "roc_auc_directional": 0.9263580914502842,
-      "nr_prec": 30319,
-      "nr_prec_HUMAN": 22494,
-      "nr_prec_YEAST": 6106,
-      "nr_prec_ECOLI": 1719,
-      "variance_epsilon_global": 0.5030857547616323
+      "variance_epsilon_global": 0.5030857547616323,
+      "nr_feature": 30319,
+      "roc_auc": 0.9101210201977906
     },
     "2": {
       "median_abs_epsilon_global": 0.16666023980496902,
@@ -205,13 +189,9 @@
       "CV_q75": 0.12345102792442147,
       "CV_q90": 0.21702601748499478,
       "CV_q95": 0.3204262955898846,
-      "roc_auc": 0.909871256058396,
-      "roc_auc_directional": 0.9258923820512215,
-      "nr_prec": 30341,
-      "nr_prec_HUMAN": 22508,
-      "nr_prec_YEAST": 6111,
-      "nr_prec_ECOLI": 1722,
-      "variance_epsilon_global": 0.5103472120733118
+      "variance_epsilon_global": 0.5103472120733118,
+      "nr_feature": 30341,
+      "roc_auc": 0.909871256058396
     },
     "1": {
       "median_abs_epsilon_global": 0.16666023980496902,
@@ -244,34 +224,18 @@
       "CV_q75": 0.12345102792442147,
       "CV_q90": 0.21702601748499478,
       "CV_q95": 0.3204262955898846,
-      "roc_auc": 0.909871256058396,
-      "roc_auc_directional": 0.9258923820512215,
-      "nr_prec": 30351,
-      "nr_prec_HUMAN": 22516,
-      "nr_prec_YEAST": 6112,
-      "nr_prec_ECOLI": 1723,
-      "variance_epsilon_global": 0.5103472120733118
+      "variance_epsilon_global": 0.5103472120733118,
+      "nr_feature": 30351,
+      "roc_auc": 0.909871256058396
     }
   },
   "median_abs_epsilon": NaN,
   "mean_abs_epsilon": NaN,
-  "nr_prec": 30351,
+  "nr_feature": 30351,
   "comments": "",
-  "proteobench_version": "0.13.2",
-  "color": "#E43924",
-  "hover_text": "ProteoBench ID: Sage_20250624_132250<br>Software tool: Sage <br>Comment (private submission): ...",
-  "scatter_size": 20,
-  "fixed_mods": {
-    "C": 57.0215
-  },
-  "variable_mods": {
-    "[": [
-      42.0
-    ],
-    "M": [
-      15.994
-    ]
-  },
+  "proteobench_version": "0.16.4",
+  "fixed_mods": "C[Carbamidomethyl]",
+  "variable_mods": "Protein N-term[42.0], M[Oxidation]",
   "max_mods": 3,
   "min_precursor_charge": 2,
   "max_precursor_charge": 4,
@@ -287,5 +251,9 @@
   "mean_abs_epsilon_precision_global": 0.3832401784653092,
   "median_abs_epsilon_precision_eq_species": 0.22398041737391772,
   "mean_abs_epsilon_precision_eq_species": 0.4715429528911596,
-  "semi_enzymatic": false
+  "semi_enzymatic": false,
+  "min_precursor_mz": NaN,
+  "max_precursor_mz": NaN,
+  "min_fragment_mz": NaN,
+  "max_fragment_mz": NaN
 }
