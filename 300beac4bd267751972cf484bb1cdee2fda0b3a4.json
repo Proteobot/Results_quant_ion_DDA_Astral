@@ -1,20 +1,19 @@
 {
-  "old_new": "new",
   "id": "DIA-NN_20260612_055234",
   "software_name": "DIA-NN",
   "software_version": "2.6.0 Enterprise ",
   "search_engine": "DIA-NN",
   "search_engine_version": "2.6.0 Enterprise ",
-  "ident_fdr_psm": "0.01",
+  "ident_fdr_psm": 0.01,
   "ident_fdr_peptide": NaN,
   "ident_fdr_protein": NaN,
   "enable_match_between_runs": true,
   "precursor_mass_tolerance": "[-4.0 ppm, 4.0 ppm]",
   "fragment_mass_tolerance": "[-10.0 ppm, 10.0 ppm]",
   "enzyme": "Trypsin/P",
-  "allowed_miscleavages": "2",
-  "min_peptide_length": "7",
-  "max_peptide_length": "30",
+  "allowed_miscleavages": 2,
+  "min_peptide_length": 7,
+  "max_peptide_length": 30,
   "is_temporary": false,
   "intermediate_hash": "300beac4bd267751972cf484bb1cdee2fda0b3a4",
   "results": {
@@ -50,7 +49,7 @@
       "CV_q90": 0.16460443546238068,
       "CV_q95": 0.19961122702114087,
       "variance_epsilon_global": 0.05257241002554296,
-      "nr_prec": 12219,
+      "nr_feature": 12219,
       "roc_auc": 0.9869347317629772
     },
     "5": {
@@ -85,7 +84,7 @@
       "CV_q90": 0.1723669873642289,
       "CV_q95": 0.2113751682972676,
       "variance_epsilon_global": 0.06491823940869626,
-      "nr_prec": 14361,
+      "nr_feature": 14361,
       "roc_auc": 0.9824141266292448
     },
     "4": {
@@ -120,7 +119,7 @@
       "CV_q90": 0.17489029045875662,
       "CV_q95": 0.2154506892990315,
       "variance_epsilon_global": 0.07621638896707605,
-      "nr_prec": 15492,
+      "nr_feature": 15492,
       "roc_auc": 0.9779299259799178
     },
     "3": {
@@ -155,7 +154,7 @@
       "CV_q90": 0.17679571407834432,
       "CV_q95": 0.21759142715398525,
       "variance_epsilon_global": 0.08109717826562149,
-      "nr_prec": 16363,
+      "nr_feature": 16363,
       "roc_auc": 0.9743992361307734
     },
     "2": {
@@ -190,7 +189,7 @@
       "CV_q90": 0.17735683881261377,
       "CV_q95": 0.21857064869073228,
       "variance_epsilon_global": 0.08386231675178907,
-      "nr_prec": 17037,
+      "nr_feature": 17037,
       "roc_auc": 0.9721697585455548
     },
     "1": {
@@ -225,35 +224,30 @@
       "CV_q90": 0.17735683881261377,
       "CV_q95": 0.21857064869073228,
       "variance_epsilon_global": 0.08386231675178907,
-      "nr_prec": 17658,
+      "nr_feature": 17658,
       "roc_auc": 0.9721697585455548
     }
   },
-  "median_abs_epsilon": 0.12339453522481847,
-  "mean_abs_epsilon": 0.18239138317482417,
-  "nr_prec": 16363,
+  "median_abs_epsilon_global": 0.12459499376849692,
+  "mean_abs_epsilon_global": 0.1851993548272435,
+  "median_abs_epsilon_eq_species": 0.14290939335872052,
+  "mean_abs_epsilon_eq_species": 0.23564305435341162,
+  "median_abs_epsilon_precision_global": 0.12290803572300923,
+  "mean_abs_epsilon_precision_global": 0.1856753942669618,
+  "median_abs_epsilon_precision_eq_species": 0.14088607488602278,
+  "mean_abs_epsilon_precision_eq_species": 0.23827452648073222,
+  "nr_feature": 17658,
   "comments": "",
-  "proteobench_version": "0.16.2",
-  "fixed_mods": "unimod4",
+  "proteobench_version": "0.16.5",
+  "old_new": "new",
+  "semi_enzymatic": false,
+  "fixed_mods": "C[Carbamidomethyl]",
   "variable_mods": "UniMod:35, UniMod:1",
-  "max_mods": "2",
-  "min_precursor_charge": "1",
-  "max_precursor_charge": "4",
+  "max_mods": 2,
+  "min_precursor_charge": 1,
+  "max_precursor_charge": 4,
   "quantification_method": "Legacy",
   "protein_inference": "0",
   "abundance_normalization_ions": "",
-  "submission_comments": "Knowledge base, Q.Value <= 0.01, Global.Q.Value <= 0.01, Ms1.Q.Value <= 0.01, Global.Ms1.Q.Value <= 0.01, Global.Ms1.Quality >= 0.8\n\n ### Parameter changes detected:\n- **abundance_normalization_ions**: `Cross-run normalization` \u2192 ``\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **quantification_method**: `QuantUMS high-accuracy` \u2192 `Legacy`\n- **ident_fdr_psm**: `0.05` \u2192 `0.01`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n- **max_mods**: `1` \u2192 `2`\n- **allowed_miscleavages**: `1` \u2192 `2`\n- **max_precursor_charge**: `3` \u2192 `4`\n- **variable_mods**: `` \u2192 `UniMod:35, UniMod:1`\n- **min_precursor_charge**: `2` \u2192 `1`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/300beac4bd267751972cf484bb1cdee2fda0b3a4/",
-  "median_abs_epsilon_global": 0.12339453522481847,
-  "mean_abs_epsilon_global": 0.18239138317482417,
-  "median_abs_epsilon_eq_species": 0.142059386140336,
-  "mean_abs_epsilon_eq_species": 0.23230836122681367,
-  "median_abs_epsilon_precision_global": 0.12161372492953504,
-  "mean_abs_epsilon_precision_global": 0.18271239601980158,
-  "median_abs_epsilon_precision_eq_species": 0.13907668204743176,
-  "mean_abs_epsilon_precision_eq_species": 0.23449511130481163,
-  "semi_enzymatic": false,
-  "min_precursor_mz": NaN,
-  "max_precursor_mz": NaN,
-  "min_fragment_mz": NaN,
-  "max_fragment_mz": NaN
+  "submission_comments": "Knowledge base, Q.Value <= 0.01, Global.Q.Value <= 0.01, Ms1.Q.Value <= 0.01, Global.Ms1.Q.Value <= 0.01, Global.Ms1.Quality >= 0.8\n\n ### Parameter changes detected:\n- **abundance_normalization_ions**: `Cross-run normalization` \u2192 ``\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **quantification_method**: `QuantUMS high-accuracy` \u2192 `Legacy`\n- **ident_fdr_psm**: `0.05` \u2192 `0.01`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n- **max_mods**: `1` \u2192 `2`\n- **allowed_miscleavages**: `1` \u2192 `2`\n- **max_precursor_charge**: `3` \u2192 `4`\n- **variable_mods**: `` \u2192 `UniMod:35, UniMod:1`\n- **min_precursor_charge**: `2` \u2192 `1`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/300beac4bd267751972cf484bb1cdee2fda0b3a4/"
 }
