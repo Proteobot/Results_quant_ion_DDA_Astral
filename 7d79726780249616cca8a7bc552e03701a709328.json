@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.4768162190557576,
   "nr_feature": 36870,
   "comments": "",
-  "proteobench_version": "0.16.6",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "semi_enzymatic": false,
   "fixed_mods": "C:57.0215",
@@ -248,6 +248,8 @@
   "max_precursor_charge": 4,
   "quantification_method": NaN,
   "protein_inference": NaN,
-  "abundance_normalization_ions": NaN,
+  "abundance_normalization_ions": "median.RT",
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "data completeness : 95.8%\nusing Sage dataset settings for identification\n\n ### No parameter changes detected. \n\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/7d79726780249616cca8a7bc552e03701a709328/"
 }
