@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.25169186786248793,
   "nr_feature": 23925,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "semi_enzymatic": false,
   "fixed_mods": "C[Carbamidomethyl]",
@@ -249,5 +249,7 @@
   "quantification_method": NaN,
   "protein_inference": NaN,
   "abundance_normalization_ions": NaN,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "MBR only within A and B via fractions (1, 11)\nLFQ normalization off\n\n ### No parameter changes detected. \n\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/e5a709af0d04b71d0572029df66753a06195a0f6/"
 }

@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.23827452648073222,
   "nr_feature": 17658,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "semi_enzymatic": false,
   "fixed_mods": "C[Carbamidomethyl]",
@@ -249,5 +249,7 @@
   "quantification_method": "Legacy",
   "protein_inference": "0",
   "abundance_normalization_ions": "",
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "Knowledge base, Q.Value <= 0.01, Global.Q.Value <= 0.01, Ms1.Q.Value <= 0.01, Global.Ms1.Q.Value <= 0.01, Global.Ms1.Quality >= 0.8\n\n ### Parameter changes detected:\n- **abundance_normalization_ions**: `Cross-run normalization` \u2192 ``\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **quantification_method**: `QuantUMS high-accuracy` \u2192 `Legacy`\n- **ident_fdr_psm**: `0.05` \u2192 `0.01`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n- **max_mods**: `1` \u2192 `2`\n- **allowed_miscleavages**: `1` \u2192 `2`\n- **max_precursor_charge**: `3` \u2192 `4`\n- **variable_mods**: `` \u2192 `UniMod:35, UniMod:1`\n- **min_precursor_charge**: `2` \u2192 `1`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/300beac4bd267751972cf484bb1cdee2fda0b3a4/"
 }
